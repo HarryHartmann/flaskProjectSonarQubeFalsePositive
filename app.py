@@ -18,7 +18,7 @@ def dummy_function():
         'some_path_to_file',
         mimetype=APPLICATION_MIME_TYPE,
         as_attachment=True,
-        download_name=f"some string",
+        download_name=f"some string",  # NOSONAR
     )
 
 
